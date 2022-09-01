@@ -1,0 +1,57 @@
+.custom-card {
+  width: 400px;
+
+  &_body-header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+    &__img {
+      width: 100px;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: 20px;
+    }
+    &__subtitle {
+      width: 100%;
+      font-size: 14px;
+      color: #979ba1 !important;
+    }
+  }
+
+  &_label {
+
+  }
+  &_input {
+
+  }
+
+  &_body-footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #979ba1 !important;
+    font-size: 12px;
+    margin-top: 10px;
+
+    &__text {
+      margin-right: 5px;
+    }
+
+    &__link {
+      color: #979ba1 !important;
+      text-decoration: underline;
+    }
+
+    &__link:hover {
+      color: #5b5d5f !important;
+      text-decoration: underline;
+    }
+  }
+}
